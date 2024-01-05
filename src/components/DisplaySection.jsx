@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React from 'react';
 
 export const DisplaySection = () => {
   return (
@@ -10,5 +10,5 @@ export const DisplaySection = () => {
       <button className='button'> Try Me! </button>
       <button className='back-button'> TOP </button>
     </div>
-  )
-}
+  );
+};

@@ -1,63 +1,63 @@
-import logo from "../assets/images/logo.svg"
-import search from "../assets/images/search.svg"
-import store from "../assets/images/store.svg"
+import logo from '../assets/images/logo.svg';
+import search from '../assets/images/search.svg';
+import store from '../assets/images/store.svg';
 const Navbar = () => {
   return (
-    <nav className="nav-wrapper">
-      <div className="nav-content">
-        <ul className="list-styled">
-          <li className="list-styled">
-            <img src={logo} alt="Apple" />
+    <nav className='nav-wrapper'>
+      <div className='nav-content'>
+        <ul className='list-styled'>
+          <li className='list-styled'>
+            <img src={logo} alt='Apple' />
           </li>
           <li>
-            <a className="link-styled"> Store </a>
+            <a className='link-styled'> Store </a>
           </li>
           <li>
-            <a className="link-styled"> Mac </a>
+            <a className='link-styled'> Mac </a>
           </li>
           <li>
-            <a className="link-styled"> Ipad </a>
+            <a className='link-styled'> Ipad </a>
           </li>
           <li>
-            <a className="link-styled"> Iphone </a>
+            <a className='link-styled'> Iphone </a>
           </li>
           <li>
-            <a className="link-styled"> Watch </a>
+            <a className='link-styled'> Watch </a>
           </li>
           <li>
-            <a className="link-styled"> Airpods </a>
+            <a className='link-styled'> Airpods </a>
           </li>
           <li>
-            <a className="link-styled"> Store </a>
+            <a className='link-styled'> Store </a>
           </li>
           <li>
-            <a className="link-styled"> Tv & Home </a>
+            <a className='link-styled'> Tv & Home </a>
           </li>
           <li>
-            <a className="link-styled"> Entertainment </a>
+            <a className='link-styled'> Entertainment </a>
           </li>
           <li>
-            <a className="link-styled"> Accesories </a>
+            <a className='link-styled'> Accesories </a>
           </li>
           <li>
-            <a className="link-styled"> Support </a>
+            <a className='link-styled'> Support </a>
           </li>
           <li>
-            <a className="link-styled"> Accesories </a>
+            <a className='link-styled'> Accesories </a>
           </li>
           <li>
-            <a className="link-styled"> Accesories </a>
+            <a className='link-styled'> Accesories </a>
           </li>
-          <li className="list-styled">
-            <img src={search} alt="search icon" />
+          <li className='list-styled'>
+            <img src={search} alt='search icon' />
           </li>
-          <li className="list-styled">
-            <img src={store} alt="store icon" />
+          <li className='list-styled'>
+            <img src={store} alt='store icon' />
           </li>
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
