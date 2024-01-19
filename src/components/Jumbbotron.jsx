@@ -23,7 +23,7 @@ const Jumbbotron = () => {
         <li>
           <a className='link' onClick={handleScroll}> Learn More </a>
         </li>
-      </ul>
+l     </ul>
       <img className='iphone-img' src={HoldingIphone} alt='iphone'/>
     </div>
   );
